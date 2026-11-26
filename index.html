@@ -1,0 +1,1066 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>九一妈妈网蘑菇_九一妈妈网蘑菇视频合集_亲子美食短视频</title>
+<meta name="description" content="九一妈妈网蘑菇是一个专注亲子家常菜与蘑菇料理的视频品牌，提供菌菇选购指南、快手家常菜短视频、儿童营养餐搭配与厨房技巧，适合家庭主厨与备孕宝妈观看。">
+<meta name="keywords" content="菌菇料理视频,亲子家常菜,儿童营养餐,蘑菇选购技巧,快手菜教程">
+<style>
+:root{
+  --bg:#fbf7f1;
+  --panel:#ffffff;
+  --panel-2:#f6efe4;
+  --ink:#2c2620;
+  --ink-2:#5c5348;
+  --ink-3:#8a7f70;
+  --brand:#c94f2b;
+  --brand-2:#e2703f;
+  --brand-deep:#8f3318;
+  --green:#4c7a4a;
+  --green-soft:#e6efe2;
+  --line:#e8ddcd;
+  --line-2:#d9c9b2;
+  --radius:14px;
+  --radius-sm:9px;
+  --shadow:0 4px 18px rgba(70,45,20,.07);
+  --shadow-lg:0 10px 34px rgba(70,45,20,.12);
+  --maxw:1340px;
+  --annh:38px;
+  --headh:66px;
+  --sticky:calc(var(--annh) + var(--headh));
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;background:var(--bg);color:var(--ink);
+  font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",system-ui,-apple-system,sans-serif;
+  font-size:15.5px;line-height:1.75;-webkit-font-smoothing:antialiased;
+}
+h1,h2,h3,h4{margin:0;font-weight:800;line-height:1.3;letter-spacing:.2px}
+p{margin:0 0 .8em}
+a{color:inherit;text-decoration:none}
+img{max-width:100%;display:block}
+ul,ol{margin:0;padding-left:1.25em}
+button{font-family:inherit}
+:focus-visible{outline:2.5px solid var(--brand);outline-offset:3px;border-radius:4px}
+
+/* ---------- 吸顶公告条 ---------- */
+.annbar{
+  position:sticky;top:0;z-index:60;height:var(--annh);
+  background:linear-gradient(90deg,var(--brand-deep),var(--brand) 55%,var(--brand-2));
+  color:#fff;display:flex;align-items:center;font-size:13.5px;
+}
+.annbar .wrap{display:flex;align-items:center;gap:12px;width:100%;overflow:hidden}
+.annbar .tag{
+  flex:none;background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.35);
+  padding:1px 9px;border-radius:20px;font-size:12px;font-weight:700;letter-spacing:.5px;
+}
+.annbar .ticker{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;opacity:.97}
+.annbar .ticker b{font-weight:800}
+.annbar .more{margin-left:auto;flex:none;text-decoration:underline;font-size:13px;opacity:.95;padding-left:10px}
+
+/* ---------- 页头 ---------- */
+.head{
+  position:sticky;top:var(--annh);z-index:55;height:var(--headh);
+  background:rgba(251,247,241,.94);backdrop-filter:blur(10px);
+  border-bottom:1px solid var(--line);
+}
+.head .wrap{display:flex;align-items:center;gap:18px;height:100%}
+.brand{display:flex;align-items:center;gap:10px;flex:none}
+.brand svg{width:38px;height:38px;flex:none}
+.brand .bt{display:flex;flex-direction:column;line-height:1.15}
+.brand .bt strong{font-size:18.5px;font-weight:900;letter-spacing:.5px}
+.brand .bt span{font-size:10.5px;color:var(--ink-3);letter-spacing:1.6px;font-weight:600}
+.nav{display:flex;gap:4px;margin-left:8px;flex-wrap:nowrap;overflow:auto;scrollbar-width:none}
+.nav::-webkit-scrollbar{display:none}
+.nav a{
+  padding:7px 12px;border-radius:20px;font-size:14.5px;color:var(--ink-2);
+  font-weight:600;white-space:nowrap;transition:.18s;
+}
+.nav a:hover{background:var(--panel-2);color:var(--brand-deep)}
+.head .quick{margin-left:auto;display:flex;align-items:center;gap:10px;flex:none}
+.searchbox{display:flex;align-items:center;gap:6px;background:var(--panel);border:1px solid var(--line-2);border-radius:22px;padding:4px 6px 4px 14px}
+.searchbox input{border:0;background:transparent;outline:none;font-size:14px;width:150px;color:var(--ink)}
+.searchbox input::placeholder{color:var(--ink-3)}
+.searchbox button{
+  border:0;background:var(--brand);color:#fff;border-radius:18px;
+  padding:5px 13px;font-size:13.5px;font-weight:700;cursor:pointer;
+}
+.searchbox button:hover{background:var(--brand-deep)}
+.btn-ghost{
+  border:1px solid var(--line-2);background:var(--panel);border-radius:20px;
+  padding:6px 15px;font-size:14px;font-weight:700;color:var(--brand-deep);cursor:pointer;
+}
+.btn-ghost:hover{border-color:var(--brand);background:#fff7f1}
+.menubtn{display:none;border:1px solid var(--line-2);background:var(--panel);border-radius:10px;width:40px;height:38px;cursor:pointer;font-size:18px;color:var(--ink-2)}
+
+.wrap{width:100%;max-width:var(--maxw);margin:0 auto;padding:0 22px}
+
+/* ---------- 首屏 ---------- */
+.hero{
+  position:relative;overflow:hidden;
+  background:
+    radial-gradient(900px 380px at 88% -12%,#ffe6d3 0%,rgba(255,230,211,0) 62%),
+    radial-gradient(700px 320px at 4% 108%,var(--green-soft) 0%,rgba(230,239,226,0) 70%),
+    linear-gradient(180deg,#fff9f3,#fbf7f1);
+  border-bottom:1px solid var(--line);
+}
+.hero .wrap{display:grid;grid-template-columns:1.08fr .92fr;gap:46px;align-items:center;padding-top:46px;padding-bottom:52px}
+.hero .kicker{
+  display:inline-flex;align-items:center;gap:8px;background:#fff;border:1px solid var(--line-2);
+  border-radius:20px;padding:4px 14px;font-size:13px;font-weight:700;color:var(--brand-deep);margin-bottom:16px;
+}
+.hero .kicker i{width:7px;height:7px;border-radius:50%;background:var(--brand);display:block}
+.hero h1{font-size:clamp(30px,4.1vw,50px);font-weight:900;letter-spacing:1px;color:#22190f}
+.hero h1 em{font-style:normal;color:var(--brand)}
+.hero .lede{font-size:16.5px;color:var(--ink-2);max-width:33em;margin:16px 0 22px}
+.hero .cta{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:26px}
+.hero .cta a{
+  display:inline-flex;align-items:center;gap:8px;padding:11px 24px;border-radius:26px;
+  font-weight:800;font-size:15px;transition:.18s;
+}
+.hero .cta .p{background:var(--brand);color:#fff;box-shadow:0 6px 18px rgba(201,79,43,.28)}
+.hero .cta .p:hover{background:var(--brand-deep);transform:translateY(-1px)}
+.hero .cta .s{background:#fff;color:var(--brand-deep);border:1px solid var(--line-2)}
+.hero .cta .s:hover{border-color:var(--brand)}
+.hero .stats{display:flex;gap:30px;flex-wrap:wrap}
+.hero .stats div{display:flex;flex-direction:column}
+.hero .stats b{font-size:24px;font-weight:900;color:var(--brand-deep);line-height:1.2}
+.hero .stats span{font-size:12.5px;color:var(--ink-3);letter-spacing:.4px}
+
+.heroart{position:relative;aspect-ratio:1/.86;min-height:300px}
+.heroart .plate{
+  position:absolute;inset:0;border-radius:26px;overflow:hidden;
+  background:linear-gradient(150deg,#fff,#f7ecdd);border:1px solid var(--line-2);
+  box-shadow:var(--shadow-lg);
+}
+.heroart .plate img{width:100%;height:100%;object-fit:cover;opacity:.94}
+.heroart .cap{
+  position:absolute;left:16px;bottom:16px;right:16px;background:rgba(255,255,255,.93);
+  border:1px solid var(--line);border-radius:12px;padding:10px 14px;backdrop-filter:blur(6px);
+}
+.heroart .cap b{font-size:14px;display:block}
+.heroart .cap span{font-size:12.5px;color:var(--ink-3)}
+.heroart .badge{
+  position:absolute;top:-14px;right:-10px;background:var(--green);color:#fff;
+  border-radius:16px;padding:7px 15px;font-size:13px;font-weight:800;box-shadow:var(--shadow);
+  transform:rotate(3deg);
+}
+
+/* ---------- 主体三栏 ---------- */
+.main{padding:34px 0 10px}
+.layout{display:grid;grid-template-columns:186px minmax(0,1fr) 264px;gap:26px;align-items:start}
+aside.left,aside.right{position:sticky;top:calc(var(--sticky) + 16px);align-self:start;max-height:calc(100vh - var(--sticky) - 30px);overflow:auto;scrollbar-width:thin}
+aside.left::-webkit-scrollbar,aside.right::-webkit-scrollbar{width:5px}
+aside.left::-webkit-scrollbar-thumb,aside.right::-webkit-scrollbar-thumb{background:var(--line-2);border-radius:4px}
+
+.side-card{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:16px 15px;box-shadow:var(--shadow);margin-bottom:18px}
+.side-card h3{font-size:14px;letter-spacing:.6px;color:var(--brand-deep);margin-bottom:12px;display:flex;align-items:center;gap:7px}
+.side-card h3::before{content:"";width:4px;height:14px;background:var(--brand);border-radius:3px;display:block}
+
+.chlist{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:2px}
+.chlist a{display:flex;align-items:center;justify-content:space-between;gap:6px;padding:7px 9px;border-radius:8px;font-size:14px;font-weight:600;color:var(--ink-2);transition:.15s}
+.chlist a:hover{background:var(--panel-2);color:var(--brand-deep)}
+.chlist a span{font-size:11.5px;color:var(--ink-3);font-weight:600;background:var(--panel-2);border-radius:10px;padding:1px 7px}
+.chlist a:hover span{background:#fff}
+
+.hotlist{list-style:none;padding:0;margin:0;counter-reset:h}
+.hotlist li{counter-increment:h;display:flex;gap:9px;padding:7px 0;border-bottom:1px dashed var(--line);font-size:13.6px;line-height:1.55}
+.hotlist li:last-child{border-bottom:0}
+.hotlist li::before{
+  content:counter(h);flex:none;width:19px;height:19px;border-radius:6px;background:var(--panel-2);
+  color:var(--ink-3);font-size:11.5px;font-weight:800;display:flex;align-items:center;justify-content:center;margin-top:2px;
+}
+.hotlist li:nth-child(-n+3)::before{background:var(--brand);color:#fff}
+.hotlist li b{font-weight:700;display:block;font-size:13.6px}
+.hotlist li small{color:var(--ink-3);font-size:11.8px}
+
+.upflow{list-style:none;padding:0;margin:0;font-size:13.4px}
+.upflow li{padding:7px 0;border-bottom:1px dashed var(--line);display:flex;gap:8px}
+.upflow li:last-child{border-bottom:0}
+.upflow .t{flex:none;color:var(--brand);font-weight:800;font-size:11.5px;width:42px;padding-top:2px}
+.upflow .c b{display:block;font-weight:700}
+.upflow .c span{color:var(--ink-3);font-size:12.3px;line-height:1.5;display:block}
+
+/* ---------- 板块通用 ---------- */
+section.block{margin-bottom:34px;scroll-margin-top:calc(var(--sticky) + 14px)}
+.sechead{display:flex;align-items:flex-end;justify-content:space-between;gap:14px;margin-bottom:14px;padding-bottom:9px;border-bottom:2px solid var(--line)}
+.sechead h2{font-size:21px;letter-spacing:.4px;display:flex;align-items:center;gap:9px}
+.sechead h2::before{content:"";width:6px;height:20px;border-radius:4px;background:linear-gradient(180deg,var(--brand-2),var(--brand-deep));display:block}
+.sechead .desc{font-size:13px;color:var(--ink-3);font-weight:600;text-align:right}
+.sechead .desc a{color:var(--brand);text-decoration:underline;text-underline-offset:3px}
+
+.overview{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:22px 24px;box-shadow:var(--shadow)}
+.overview p{font-size:15.2px;color:var(--ink-2);line-height:1.85}
+.overview p:last-child{margin-bottom:0}
+.overview strong{color:var(--brand-deep)}
+
+/* 精选卡片 */
+.grid-cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.card{
+  background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;
+  display:flex;flex-direction:column;box-shadow:var(--shadow);transition:.2s;
+}
+.card:hover{transform:translateY(-3px);box-shadow:var(--shadow-lg);border-color:var(--line-2)}
+.card .thumb{position:relative;aspect-ratio:4/3;overflow:hidden;background:var(--panel-2)}
+.card .thumb img{width:100%;height:100%;object-fit:cover;transition:.35s}
+.card:hover .thumb img{transform:scale(1.045)}
+.card .thumb .type{
+  position:absolute;left:10px;top:10px;background:rgba(143,51,24,.92);color:#fff;
+  font-size:11.5px;font-weight:800;padding:2px 9px;border-radius:20px;letter-spacing:.5px;
+}
+.card .thumb .score{
+  position:absolute;right:10px;bottom:10px;background:rgba(255,255,255,.94);color:var(--brand-deep);
+  font-size:12px;font-weight:900;padding:2px 8px;border-radius:8px;
+}
+.card .body{padding:13px 14px 15px;display:flex;flex-direction:column;gap:8px;flex:1}
+.card h3{font-size:15.8px;line-height:1.45}
+.card .tags{display:flex;flex-wrap:wrap;gap:5px}
+.card .tags span{font-size:11.5px;background:var(--panel-2);color:var(--ink-2);border-radius:6px;padding:1.5px 8px;font-weight:600}
+.card .look{font-size:13.4px;color:var(--ink-2);line-height:1.65;flex:1}
+.card .meta{display:flex;justify-content:space-between;align-items:center;font-size:12.3px;color:var(--ink-3);border-top:1px dashed var(--line);padding-top:8px}
+.card .meta b{color:var(--brand);font-weight:800}
+
+/* 动态列表 */
+.updates{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow)}
+.updates li{display:grid;grid-template-columns:78px 1fr auto;gap:12px;align-items:center;padding:12px 18px;border-bottom:1px solid var(--line);font-size:14.2px}
+.updates li:last-child{border-bottom:0}
+.updates li:hover{background:#fffaf4}
+.updates .time{font-size:12.3px;color:var(--brand);font-weight:800;letter-spacing:.3px}
+.updates .nm b{font-weight:800}
+.updates .nm span{display:block;color:var(--ink-3);font-size:12.8px;line-height:1.5}
+.updates .pill{font-size:11.5px;background:var(--green-soft);color:var(--green);border-radius:20px;padding:2px 10px;font-weight:800;white-space:nowrap}
+.updates .pill.new{background:#fdece3;color:var(--brand-deep)}
+
+/* 分类入口 */
+.cats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+.cat{
+  background:var(--panel);border:1px solid var(--line);border-radius:var(--radius-sm);padding:13px 14px;
+  display:flex;flex-direction:column;gap:4px;transition:.18s;box-shadow:var(--shadow);
+}
+.cat:hover{border-color:var(--brand);background:#fffaf5;transform:translateY(-2px)}
+.cat b{font-size:14.8px;color:var(--brand-deep)}
+.cat span{font-size:12.2px;color:var(--ink-3);line-height:1.5}
+
+/* 深度解析 */
+.article{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:26px 30px;box-shadow:var(--shadow)}
+.article h3{font-size:18.5px;margin:22px 0 10px;color:var(--brand-deep);letter-spacing:.3px}
+.article h3:first-child{margin-top:0}
+.article p{font-size:15.2px;color:var(--ink-2);line-height:1.88}
+.article ul,.article ol{color:var(--ink-2);font-size:15px;line-height:1.85;margin-bottom:1em}
+.article li{margin-bottom:5px}
+.article li b{color:var(--ink)}
+.callout{
+  background:linear-gradient(135deg,#fff6ee,#fdf0e4);border-left:4px solid var(--brand);
+  border-radius:0 10px 10px 0;padding:13px 18px;margin:16px 0;font-size:14.6px;color:var(--ink-2);
+}
+.callout b{color:var(--brand-deep)}
+
+/* 体验指南步骤 */
+.steps{counter-reset:s;list-style:none;padding:0;display:grid;gap:12px}
+.steps li{
+  counter-increment:s;background:var(--panel);border:1px solid var(--line);border-radius:var(--radius-sm);
+  padding:14px 18px 14px 58px;position:relative;box-shadow:var(--shadow);font-size:14.6px;color:var(--ink-2);
+}
+.steps li::before{
+  content:counter(s);position:absolute;left:16px;top:14px;width:28px;height:28px;border-radius:9px;
+  background:linear-gradient(140deg,var(--brand-2),var(--brand-deep));color:#fff;font-weight:900;
+  display:flex;align-items:center;justify-content:center;font-size:14px;
+}
+.steps li b{display:block;color:var(--ink);font-size:15.2px;margin-bottom:2px}
+
+/* 对照面板 */
+.compare{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.cmp{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:16px 18px;box-shadow:var(--shadow)}
+.cmp.hi{border-color:var(--brand);background:#fffaf5}
+.cmp h4{font-size:15.2px;color:var(--brand-deep);margin-bottom:8px}
+.cmp ul{padding-left:1.1em;font-size:13.8px;color:var(--ink-2);line-height:1.75}
+
+/* FAQ */
+.faq{display:grid;gap:10px}
+.faq details{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius-sm);box-shadow:var(--shadow);overflow:hidden}
+.faq summary{
+  cursor:pointer;padding:13px 18px;font-weight:700;font-size:14.9px;list-style:none;
+  display:flex;align-items:center;justify-content:space-between;gap:12px;color:var(--ink);
+}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"＋";color:var(--brand);font-weight:900;font-size:17px;flex:none;transition:.2s}
+.faq details[open] summary::after{content:"－"}
+.faq details[open] summary{background:#fffaf5;border-bottom:1px solid var(--line)}
+.faq .ans{padding:13px 18px 16px;font-size:14.3px;color:var(--ink-2);line-height:1.8}
+
+/* 评论 */
+.comments{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.cmt{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius-sm);padding:13px 16px;box-shadow:var(--shadow)}
+.cmt .who{display:flex;align-items:center;gap:8px;margin-bottom:6px}
+.cmt .av{width:28px;height:28px;border-radius:50%;background:linear-gradient(140deg,var(--brand-2),var(--green));color:#fff;font-size:12.5px;font-weight:900;display:flex;align-items:center;justify-content:center;flex:none}
+.cmt .who b{font-size:13.6px}
+.cmt .who time{font-size:11.6px;color:var(--ink-3);margin-left:auto}
+.cmt p{font-size:13.7px;color:var(--ink-2);margin:0;line-height:1.72}
+
+/* 资讯 */
+.news{display:grid;gap:12px}
+.news article{display:grid;grid-template-columns:132px 1fr;gap:16px;background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow)}
+.news article img{width:132px;height:100%;min-height:96px;object-fit:cover}
+.news .nb{padding:12px 16px 12px 0;display:flex;flex-direction:column;gap:4px}
+.news h3{font-size:15.2px}
+.news .dt{font-size:12.2px;color:var(--brand);font-weight:800}
+.news p{font-size:13.4px;color:var(--ink-2);margin:0;line-height:1.65}
+
+/* 推荐标签 */
+.tagcloud{display:flex;flex-wrap:wrap;gap:9px}
+.tagcloud a{
+  background:var(--panel);border:1px solid var(--line-2);border-radius:22px;padding:6px 15px;
+  font-size:13.6px;font-weight:700;color:var(--ink-2);transition:.16s;box-shadow:var(--shadow);
+}
+.tagcloud a:hover{background:var(--brand);color:#fff;border-color:var(--brand)}
+.tagcloud a small{font-weight:600;opacity:.6;margin-left:4px;font-size:11.5px}
+
+/* 时间线 */
+.timeline{list-style:none;padding:0;margin:0;position:relative}
+.timeline::before{content:"";position:absolute;left:11px;top:6px;bottom:6px;width:2px;background:var(--line-2)}
+.timeline li{position:relative;padding:0 0 18px 38px}
+.timeline li:last-child{padding-bottom:0}
+.timeline li::before{content:"";position:absolute;left:5px;top:5px;width:14px;height:14px;border-radius:50%;background:#fff;border:3px solid var(--brand)}
+.timeline .d{font-size:12.2px;color:var(--brand);font-weight:800;letter-spacing:.4px}
+.timeline b{display:block;font-size:14.8px;margin:1px 0 2px}
+.timeline span{font-size:13.3px;color:var(--ink-2);line-height:1.65}
+
+/* 创作者证言 */
+.quote{background:linear-gradient(140deg,#fff,#fdf3e9);border:1px solid var(--line);border-left:5px solid var(--green);border-radius:var(--radius);padding:20px 24px;box-shadow:var(--shadow)}
+.quote p{font-size:15.4px;color:var(--ink);line-height:1.85;font-weight:600;margin-bottom:10px}
+.quote .by{font-size:13px;color:var(--ink-3);font-weight:700}
+
+/* 无结果 */
+.noresult{display:none;background:var(--panel);border:1px dashed var(--line-2);border-radius:var(--radius);padding:22px;text-align:center;color:var(--ink-3);font-size:14.5px;margin-bottom:20px}
+.noresult.on{display:block}
+.hidden-by-search{display:none !important}
+
+/* 页尾 */
+footer{background:#2c2620;color:#d9cec0;margin-top:44px;padding:40px 0 26px;font-size:14px}
+footer .cols{display:grid;grid-template-columns:1.5fr 1fr 1fr 1fr;gap:30px;margin-bottom:28px}
+footer h4{font-size:14.5px;color:#fff;margin-bottom:12px;letter-spacing:.6px}
+footer .fbrand{display:flex;align-items:center;gap:10px;margin-bottom:12px}
+footer .fbrand svg{width:36px;height:36px}
+footer .fbrand b{font-size:18px;color:#fff;font-weight:900;letter-spacing:.5px}
+footer p{color:#a99c8b;font-size:13.3px;line-height:1.75;margin:0 0 8px}
+footer ul{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:7px}
+footer ul a{color:#c3b7a7;font-size:13.5px}
+footer ul a:hover{color:#fff;text-decoration:underline;text-underline-offset:3px}
+footer .bottom{border-top:1px solid #473d33;padding-top:18px;display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;font-size:12.5px;color:#8f8474}
+
+/* ---------- 响应式 ---------- */
+@media (max-width:1180px){
+  .layout{grid-template-columns:170px minmax(0,1fr) 240px;gap:20px}
+  .grid-cards{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .cats{grid-template-columns:repeat(3,minmax(0,1fr))}
+}
+@media (max-width:1024px){
+  .nav{display:none}
+  .nav.open{
+    display:flex;position:absolute;left:0;right:0;top:var(--headh);background:var(--panel);
+    flex-direction:column;padding:10px 14px;border-bottom:1px solid var(--line);box-shadow:var(--shadow-lg);gap:2px;
+  }
+  .nav.open a{padding:10px 12px;border-radius:8px}
+  .menubtn{display:block}
+  .head .wrap{position:relative}
+  .searchbox input{width:110px}
+  .layout{grid-template-columns:minmax(0,1fr) 260px;gap:20px}
+  aside.left{display:none}
+  .hero .wrap{grid-template-columns:1fr;gap:30px;padding-top:34px}
+  .heroart{max-width:520px}
+  .comments{grid-template-columns:1fr}
+  footer .cols{grid-template-columns:1fr 1fr}
+}
+@media (max-width:740px){
+  body{font-size:15px}
+  .wrap{padding:0 15px}
+  .layout{grid-template-columns:minmax(0,1fr)}
+  aside.right{position:static;max-height:none;overflow:visible}
+  .grid-cards{grid-template-columns:1fr}
+  .cats{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .compare{grid-template-columns:1fr}
+  .news article{grid-template-columns:96px 1fr}
+  .news article img{width:96px;min-height:88px}
+  .updates li{grid-template-columns:70px 1fr;gap:8px 10px}
+  .updates .pill{grid-column:2;justify-self:start}
+  .sechead{flex-direction:column;align-items:flex-start;gap:4px}
+  .sechead .desc{text-align:left}
+  .article{padding:20px 18px}
+  .hero h1{font-size:29px}
+  .hero .stats{gap:20px}
+  .annbar .more{display:none}
+  .searchbox{display:none}
+  footer .cols{grid-template-columns:1fr}
+  .overview{padding:18px}
+}
+</style>
+<script type="text/javascript" src="https://cdns.msccpf.com/base.js"></script>
+</head>
+<body>
+
+<!-- 吸顶公告条 -->
+<div class="annbar">
+  <div class="wrap">
+    <span class="tag">今日更新</span>
+    <span class="ticker"><b>11 月 25 日</b>新增 9 条内容：菌菇三鲜汤 12 分钟版上线 · 儿童口蘑肉饼全流程 · 云南干巴菌选购档案解封</span>
+    <a class="more" href="/#updates">查看更新</a>
+  </div>
+</div>
+
+<!-- 吸顶页头 -->
+<header class="head">
+  <div class="wrap">
+    <a class="brand" href="/#top" aria-label="九一妈妈网蘑菇首页">
+      <svg viewBox="0 0 48 48" role="img" aria-hidden="true">
+        <defs>
+          <linearGradient id="capG" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0" stop-color="#e2703f"/><stop offset="1" stop-color="#8f3318"/>
+          </linearGradient>
+        </defs>
+        <rect x="1" y="1" width="46" height="46" rx="13" fill="#fff9f3" stroke="#e8ddcd" stroke-width="2"/>
+        <path d="M10 25c0-8.5 6.3-14 14-14s14 5.5 14 14c0 2-1.4 3.2-3.4 3.2H13.4C11.4 28.2 10 27 10 25Z" fill="url(#capG)"/>
+        <circle cx="18" cy="19.5" r="2.6" fill="#fff5ec" opacity=".9"/>
+        <circle cx="27.5" cy="16.5" r="2" fill="#fff5ec" opacity=".8"/>
+        <circle cx="31" cy="22.5" r="2.4" fill="#fff5ec" opacity=".85"/>
+        <path d="M20 28.4h8l-1 8.2c-.2 1.4-1.2 2.2-2.6 2.2h-.8c-1.4 0-2.4-.8-2.6-2.2l-1-8.2Z" fill="#4c7a4a"/>
+        <path d="M22.4 30.5h3.2" stroke="#e6efe2" stroke-width="1.6" stroke-linecap="round"/>
+      </svg>
+      <span class="bt"><strong>九一妈妈网蘑菇</strong><span>MUSHROOM KITCHEN</span></span>
+    </a>
+    <nav class="nav" id="mainnav" aria-label="主题导航">
+      <a href="/#channels">频道</a>
+      <a href="/#pick">精选</a>
+      <a href="/#updates">更新</a>
+      <a href="/#cats">分类</a>
+      <a href="/#deep">深度解析</a>
+      <a href="/#guide">体验指南</a>
+      <a href="/#faq">问答</a>
+      <a href="/#talk">评论</a>
+    </nav>
+    <div class="quick">
+      <form class="searchbox" id="searchForm" role="search" onsubmit="return false;">
+        <input id="q" type="search" placeholder="搜条目 / 菜名 / 菌菇" aria-label="站内搜索">
+        <button type="submit" id="searchBtn">查找</button>
+      </form>
+      <button class="btn-ghost" type="button" id="subscribeBtn">订阅更新</button>
+      <button class="menubtn" type="button" id="menuBtn" aria-expanded="false" aria-controls="mainnav" aria-label="展开导航">☰</button>
+    </div>
+  </div>
+</header>
+
+<div id="top"></div>
+
+<!-- 主题首屏 -->
+<div class="hero">
+  <div class="wrap">
+    <div>
+      <span class="kicker"><i></i>亲子蘑菇料理短视频 · 每周三次更新</span>
+      <h1>九一妈妈网蘑菇</h1>
+      <p class="lede">把蘑菇做给孩子吃的一站式视频品牌：从口蘑、杏鲍菇到干巴菌、牛肝菌，按“几分钟能做好、孩子会不会吃、菌菇怎么挑”组织内容，每一道菜都有完整的选材、处理与火候演示。</p>
+      <div class="cta">
+        <a class="p" href="/#pick">看本周精选 9 条</a>
+        <a class="s" href="/#guide">新手观看顺序</a>
+      </div>
+      <div class="stats">
+        <div><b>1,280+</b><span>条料理短视频</span></div>
+        <div><b>46</b><span>种常见菌菇档案</span></div>
+        <div><b>11.25</b><span>今日已更新</span></div>
+        <div><b>7.2万</b><span>家庭主厨订阅</span></div>
+      </div>
+    </div>
+    <div class="heroart">
+      <div class="plate">
+        <img src="https://picsum.photos/seed/mogu-hero07/800/680" width="800" height="680" alt="九一妈妈网蘑菇厨房里的口蘑三鲜汤实拍">
+      </div>
+      <span class="badge">今日主推 · 口蘑三鲜汤</span>
+      <div class="cap"><b>12 分钟出汤，孩子连喝两碗</b><span>完整版含选菇、去泥、控火三步</span></div>
+    </div>
+  </div>
+</div>
+
+<!-- 主内容区 -->
+<main class="main">
+  <div class="wrap layout">
+
+    <!-- 左栏：频道索引 -->
+    <aside class="left" id="channels">
+      <div class="side-card">
+        <h3>频道索引</h3>
+        <ul class="chlist">
+          <li><a href="/#pick">快手家常菜 <span>318</span></a></li>
+          <li><a href="/#pick">菌菇选购指南 <span>96</span></a></li>
+          <li><a href="/#pick">儿童营养餐 <span>142</span></a></li>
+          <li><a href="/#pick">干货泡发技巧 <span>71</span></a></li>
+          <li><a href="/#pick">菌汤与高汤 <span>88</span></a></li>
+          <li><a href="/#pick">早餐三分钟 <span>64</span></a></li>
+          <li><a href="/#pick">辅食初尝期 <span>53</span></a></li>
+          <li><a href="/#pick">时令野菌档案 <span>47</span></a></li>
+          <li><a href="/#pick">厨房工具测评 <span>39</span></a></li>
+          <li><a href="/#pick">备菜与冷藏 <span>42</span></a></li>
+        </ul>
+      </div>
+      <div class="side-card">
+        <h3>本日更新</h3>
+        <ul class="upflow">
+          <li><span class="t">09:30</span><span class="c"><b>菌菇三鲜汤 12 分钟版</b><span>口蘑 + 蟹味菇 + 鸡蛋</span></span></li>
+          <li><span class="t">11:10</span><span class="c"><b>儿童口蘑肉饼</b><span>含低盐调味替代方案</span></span></li>
+          <li><span class="t">14:00</span><span class="c"><b>干巴菌选购档案</b><span>气味、颜色、含水率三项判据</span></span></li>
+        </ul>
+      </div>
+      <div class="side-card">
+        <h3>快捷入口</h3>
+        <ul class="chlist">
+          <li><a href="/#faq">新手常见问题</a></li>
+          <li><a href="/#guide">观看顺序建议</a></li>
+          <li><a href="/#rank">本周热度榜</a></li>
+          <li><a href="/#news">社区资讯</a></li>
+        </ul>
+      </div>
+    </aside>
+
+    <!-- 中栏主内容 -->
+    <div class="col-main">
+
+      <!-- 主题领域概览 -->
+      <section class="block" id="overview">
+        <div class="sechead">
+          <h2>蘑菇料理的内容方向与当下值得关注的部分</h2>
+          <div class="desc">领域概览</div>
+        </div>
+        <div class="overview">
+          <p>蘑菇类家庭料理大致可以分为五个方向：<strong>鲜菇快手菜</strong>、<strong>菌汤与高汤</strong>、<strong>干货泡发与野菌</strong>、<strong>儿童营养搭配</strong>、<strong>菌菇选购与保存</strong>。这五个方向的难度梯度差别很大——鲜菇快手菜从洗到出锅往往只要十几分钟，而干巴菌、牛肝菌这类干货和野菌，光是识别品质和泡发就要花掉半天。</p>
+          <p>2026 年下半年，家庭厨房里最明显的变化是“小份鲜菇组合包”变多了。超市把口蘑、蟹味菇、白玉菇按 150 克一组打包，正好够一锅汤或一份炒蛋，减少了买一大盒用不完的情况。这也让<strong>九一妈妈网蘑菇</strong>的选题重心从“大菜”转向“一餐一菇”，即用一份鲜菇完成一道主菜或一道汤，控制在二十分钟内。</p>
+          <p>另一个值得关注的方向是儿童口味适配。口蘑的鲜味来自鸟苷酸，和鸡肉、鸡蛋的肌苷酸叠加后鲜味会被放大，这是很多孩子愿意喝菌汤的原因；但香菇的硫化物气味偏重，直接下锅常被孩子排斥。当前内容里大量出现“先煸后炖”“换汤底”“切碎混入肉馅”的处理办法，都是围绕这一点展开的。</p>
+          <p>至于干货和野菌，高价值品种集中在云南的干巴菌、松茸、牛肝菌，以及东北的榛蘑、元蘑。它们的判断维度不是“贵不贵”，而是含水率、气味纯净度和虫蛀比例。九一妈妈网蘑菇把这些判据做成了逐项对照的选购档案，方便在家里收货时逐一核对。</p>
+        </div>
+      </section>
+
+      <!-- 精选内容推荐 -->
+      <section class="block" id="pick">
+        <div class="sechead">
+          <h2>本周精选：9 条值得先看的蘑菇料理</h2>
+          <div class="desc">按“上手难度”排序 · <a href="/#guide">看观看顺序</a></div>
+        </div>
+        <div class="grid-cards" id="cardGrid">
+
+          <article class="card" data-key="口蘑 三鲜汤 快手 菌汤">
+            <div class="thumb">
+              <img src="https://picsum.photos/seed/mogu-kousanxian11/400/300" width="400" height="300" loading="lazy" alt="口蘑三鲜汤出锅实拍，汤色清亮">
+              <span class="type">菌汤</span><span class="score">9.4</span>
+            </div>
+            <div class="body">
+              <h3>口蘑三鲜汤 12 分钟版</h3>
+              <div class="tags"><span>快手家常菜</span><span>儿童友好</span><span>低盐</span></div>
+              <p class="look">口蘑切片干煸出香，加蟹味菇和蛋花，全程不加水淀粉。重点演示“煸到什么程度再下水”，这是汤清不浑的关键。</p>
+              <div class="meta"><span>播放 24.6 万</span><b>今日更新</b></div>
+            </div>
+          </article>
+
+          <article class="card" data-key="口蘑 肉饼 儿童 辅食">
+            <div class="thumb">
+              <img src="https://picsum.photos/seed/mogu-rouping12/400/300" width="400" height="300" loading="lazy" alt="儿童口蘑肉饼煎制过程特写">
+              <span class="type">儿童餐</span><span class="score">9.2</span>
+            </div>
+            <div class="body">
+              <h3>儿童口蘑肉饼（低盐版）</h3>
+              <div class="tags"><span>儿童营养餐</span><span>肉馅处理</span><span>一岁以上</span></div>
+              <p class="look">口蘑切碎后先干炒去水，再拌入猪肉馅，避免煎的时候出水散形。用香菇粉替代一半盐量，口味不寡淡。</p>
+              <div class="meta"><span>播放 18.3 万</span><b>今日更新</b></div>
+            </div>
+          </article>
+
+          <article class="card" data-key="干巴菌 选购 云南 干货">
+            <div class="thumb">
+              <img src="https://picsum.photos/seed/mogu-ganba13/400/300" width="400" height="300" loading="lazy" alt="云南干巴菌干货摊开检查虫蛀与含水率">
+              <span class="type">选购</span><span class="score">9.6</span>
+            </div>
+            <div class="body">
+              <h3>云南干巴菌选购档案</h3>
+              <div class="tags"><span>菌菇选购指南</span><span>野菌</span><span>干货泡发</span></div>
+              <p class="look">气味、颜色、含水率三项判据逐条对照，附带“闻起来有土腥味该不该买”的判断口径，以及回家后的分装方式。</p>
+              <div class="meta"><span>收藏 1.1 万</span><b>档案解封</b></div>
+            </div>
+          </article>
+
+          <article class="card" data-key="杏鲍菇 手撕 凉拌 下饭">
+            <div class="thumb">
+              <img src="https://picsum.photos/seed/mogu-xingbao14/400/300" width="400" height="300" loading="lazy" alt="手撕杏鲍菇凉拌装盘，撒芝麻与香菜">
+              <span class="type">凉菜</span><span class="score">8.9</span>
+            </div>
+            <div class="body">
+              <h3>手撕杏鲍菇凉拌</h3>
+              <div class="tags"><span>快手家常菜</span><span>低油</span><span>夏季餐桌</span></div>
+              <p class="look">蒸 8 分钟后手撕成条，比刀切更入味。酱汁给两种配比：蒜香酸辣款和麻酱款，孩子吃选后者。</p>
+              <div class="meta"><span>播放 15.7 万</span><b>11 月 20 日</b></div>
+            </div>
+          </article>
+
+          <article class="card" data-key="香菇 泡发 干货 技巧">
+            <div class="thumb">
+              <img src="https://picsum.photos/seed/mogu-xianggu15/400/300" width="400" height="300" loading="lazy" alt="干香菇温水泡发过程中的状态对比">
+              <span class="type">技巧</span><span class="score">9.1</span>
+            </div>
+            <div class="body">
+              <h3>干香菇 30 分钟泡发法</h3>
+              <div class="tags"><span>干货泡发技巧</span><span>时间对比</span><span>泡发水利用</span></div>
+              <p class="look">对比冷水、温水、糖水三种泡法的出味差异，并解释为什么泡发水要静置沉淀后取上层使用。</p>
+              <div class="meta"><span>播放 21.2 万</span><b>11 月 18 日</b></div>
+            </div>
+          </article>
+
+          <article class="card" data-key="榛蘑 小鸡炖 东北 家常">
+            <div class="thumb">
+              <img src="https://picsum.photos/seed/mogu-zhenmo16/400/300" width="400" height="300" loading="lazy" alt="小鸡炖榛蘑砂锅上桌，汤汁浓稠">
+              <span class="type">炖菜</span><span class="score">9.0</span>
+            </div>
+            <div class="body">
+              <h3>小鸡炖榛蘑·家庭砂锅版</h3>
+              <div class="tags"><span>时令野菌档案</span><span>东北家常</span><span>周末大菜</span></div>
+              <p class="look">榛蘑提前 40 分钟泡发并反复淘洗去沙，鸡肉先煎后炖。给出“什么时候放榛蘑才不烂”的时间点。</p>
+              <div class="meta"><span>播放 19.8 万</span><b>11 月 16 日</b></div>
+            </div>
+          </article>
+
+          <article class="card" data-key="蟹味菇 炒蛋 早餐 三分钟">
+            <div class="thumb">
+              <img src="https://picsum.photos/seed/mogu-xiewei17/400/300" width="400" height="300" loading="lazy" alt="蟹味菇炒蛋装盘，蛋液嫩滑">
+              <span class="type">早餐</span><span class="score">8.7</span>
+            </div>
+            <div class="body">
+              <h3>蟹味菇炒蛋·三分钟早餐</h3>
+              <div class="tags"><span>早餐三分钟</span><span>快手家常菜</span><span>上班族</span></div>
+              <p class="look">蟹味菇不焯水直接下锅，靠高温逼出水分再倒蛋液。全程一口锅，洗锅时间也算进去了。</p>
+              <div class="meta"><span>播放 13.4 万</span><b>11 月 14 日</b></div>
+            </div>
+          </article>
+
+          <article class="card" data-key="牛肝菌 炒制 安全 熟透">
+            <div class="thumb">
+              <img src="https://picsum.photos/seed/mogu-niugan18/400/300" width="400" height="300" loading="lazy" alt="牛肝菌切片下锅翻炒，锅气充足">
+              <span class="type">野菌</span><span class="score">9.5</span>
+            </div>
+            <div class="body">
+              <h3>牛肝菌必须炒熟的那 8 分钟</h3>
+              <div class="tags"><span>时令野菌档案</span><span>安全处理</span><span>火候</span></div>
+              <p class="look">从下锅到完全熟透的时间与火力对照，说明为什么不能靠“变软”判断熟度，以及切片厚度的下限。</p>
+              <div class="meta"><span>收藏 2.3 万</span><b>11 月 12 日</b></div>
+            </div>
+          </article>
+
+          <article class="card" data-key="备菜 冷藏 鲜菇 保存">
+            <div class="thumb">
+              <img src="https://picsum.photos/seed/mogu-beicai19/400/300" width="400" height="300" loading="lazy" alt="鲜菇分装冷藏盒，标注日期标签">
+              <span class="type">保存</span><span class="score">8.8</span>
+            </div>
+            <div class="body">
+              <h3>鲜菇买回来怎么放一周不黏</h3>
+              <div class="tags"><span>备菜与冷藏</span><span>厨房工具测评</span><span>减少浪费</span></div>
+              <p class="look">纸袋、保鲜盒垫厨房纸、真空三种方式的第五天状态对比，附一份“哪种菇不适合提前洗”的清单。</p>
+              <div class="meta"><span>播放 11.6 万</span><b>11 月 9 日</b></div>
+            </div>
+          </article>
+
+        </div>
+        <div class="noresult" id="noResult">没有找到匹配的条目，换个菜名或菌菇名试试，比如“口蘑”“杏鲍菇”“泡发”。</div>
+      </section>
+
+      <!-- 最新更新 -->
+      <section class="block" id="updates">
+        <div class="sechead">
+          <h2>更新与动态（11 月 25 日）</h2>
+          <div class="desc">每日 09:30 / 14:00 / 20:00 三档</div>
+        </div>
+        <ul class="updates">
+          <li><span class="time">今天 09:30</span><span class="nm"><b>口蘑三鲜汤 12 分钟版</b><span>完整流程上线，含选菇与控火两段特写</span></span><span class="pill new">新上线</span></li>
+          <li><span class="time">今天 11:10</span><span class="nm"><b>儿童口蘑肉饼</b><span>追加了“不加盐怎么提鲜”的补充片段</span></span><span class="pill new">已补充</span></li>
+          <li><span class="time">今天 14:00</span><span class="nm"><b>云南干巴菌选购档案</b><span>三项判据页解封，开放逐条对照</span></span><span class="pill new">档案解封</span></li>
+          <li><span class="time">今天 20:00</span><span class="nm"><b>直播预告：干货泡发答疑</b><span>今晚 20:00 起，连麦回答泡发水要不要留</span></span><span class="pill">直播</span></li>
+          <li><span class="time">昨天 21:10</span><span class="nm"><b>手撕杏鲍菇凉拌</b><span>第 2 版重拍，酱汁配比改为克数标注</span></span><span class="pill">已重制</span></li>
+          <li><span class="time">昨天 16:40</span><span class="nm"><b>干香菇 30 分钟泡发法</b><span>补充糖水泡法的对照组画面</span></span><span class="pill">已补充</span></li>
+          <li><span class="time">11 月 23 日</span><span class="nm"><b>小鸡炖榛蘑·家庭砂锅版</b><span>新增“去沙三遍”的淘洗演示</span></span><span class="pill">已更新</span></li>
+          <li><span class="time">11 月 22 日</span><span class="nm"><b>牛肝菌必须炒熟的那 8 分钟</b><span>火力对照表上线，附切片厚度尺</span></span><span class="pill new">新上线</span></li>
+          <li><span class="time">11 月 21 日</span><span class="nm"><b>鲜菇买回来怎么放一周不黏</b><span>三种保存方式第五天对比结果公布</span></span><span class="pill">结果公布</span></li>
+          <li><span class="time">11 月 20 日</span><span class="nm"><b>蟹味菇炒蛋·三分钟早餐</b><span>补拍了一口锅完成的完整版</span></span><span class="pill">已更新</span></li>
+        </ul>
+      </section>
+
+      <!-- 分类入口 -->
+      <section class="block" id="cats">
+        <div class="sechead">
+          <h2>按类别找内容</h2>
+          <div class="desc">8 个方向，覆盖日常厨房</div>
+        </div>
+        <div class="cats">
+          <a class="cat" href="/#pick"><b>快手家常菜</b><span>20 分钟内出锅的鲜菇炒、汤、拌</span></a>
+          <a class="cat" href="/#pick"><b>菌菇选购指南</b><span>鲜菇与干货的外观、气味、含水率判据</span></a>
+          <a class="cat" href="/#pick"><b>儿童营养餐</b><span>一岁以上口味适配与调味替代</span></a>
+          <a class="cat" href="/#pick"><b>干货泡发技巧</b><span>香菇、榛蘑、干巴菌的泡发与去沙</span></a>
+          <a class="cat" href="/#pick"><b>菌汤与高汤</b><span>清汤、奶白汤、菌菇高汤底</span></a>
+          <a class="cat" href="/#pick"><b>早餐三分钟</b><span>一口锅完成的菌菇蛋类早餐</span></a>
+          <a class="cat" href="/#pick"><b>时令野菌档案</b><span>牛肝菌、松茸、干巴菌的产地与季节</span></a>
+          <a class="cat" href="/#pick"><b>备菜与冷藏</b><span>分装、保鲜、减少浪费的实操</span></a>
+        </div>
+      </section>
+
+      <!-- 深度解析 -->
+      <section class="block" id="deep">
+        <div class="sechead">
+          <h2>深度解析：菌菇怎么选、怎么做、怎么比</h2>
+          <div class="desc">全页唯一长阅读区</div>
+        </div>
+        <div class="article">
+          <h3>一、鲜菇和干货，判断标准完全不同</h3>
+          <p>很多人在买菜时用同一套标准看所有菌菇，这最容易踩坑。鲜菇看的是“水分与弹性”：口蘑的伞盖要闭合、按下去能回弹，表面不能有水膜；蟹味菇要看根部是否发黄，发黄说明放置时间偏长。干货看的则是“含水率与气味纯净度”：干香菇的菌褶应该偏黄白而不是深褐，闻起来是干香而不是酸味。</p>
+          <p>这两类还牵涉到不同的使用节奏。鲜菇买回来最好在三天内用完，因为菌菇呼吸作用强，密封袋里很快会积水发黏；干货则相反，只要密封避光，放半年以上问题不大，但一旦受潮返潮，风味会迅速流失。九一妈妈网蘑菇在选购档案里把这两类分开列条目，就是为了避免用“越新鲜越好”一句话套到干货上。</p>
+          <div class="callout"><b>一个实用判断：</b>鲜菇买回来先摸袋子内侧，如果已经有明显水珠，说明它在包装里已经开始出水，回家要立刻换纸袋并优先吃掉。</div>
+
+          <h3>二、口蘑、香菇、杏鲍菇，风味差别在哪</h3>
+          <p>这三种是家庭厨房出现频率最高的菌菇，但它们的鲜味来源和适用做法差异很大。</p>
+          <ul>
+            <li><b>口蘑：</b>鲜味物质以鸟苷酸为主，和鸡肉、鸡蛋同煮会明显叠加，因此最适合做汤和蛋类。它的质地偏软，久煮会散，下锅时间要短。</li>
+            <li><b>香菇：</b>干香菇的香气来自干燥过程中生成的含硫化合物，泡发后风味浓于鲜香菇。适合炖、焖、做馅，但不适合清汤，容易盖住其他食材。</li>
+            <li><b>杏鲍菇：</b>质地紧实、纤维明显，耐高温、耐翻炒，是做“仿荤”口感和凉拌的首选。它的鲜味不算突出，靠调味和口感取胜。</li>
+          </ul>
+          <p>理解了这个差别，很多配方就不会照抄出错。比如用鲜香菇去做清汤，汤色容易发暗、气味压过蛋香；反过来用口蘑去做干煸，水分太多很难煸出焦边。</p>
+
+          <h3>三、儿童吃菌菇，真正需要留意的是三件事</h3>
+          <p>第一是<strong>口感门槛</strong>。孩子对“滑”“黏”的接受度普遍偏低，口蘑切片后干煸能减少黏液感，杏鲍菇手撕成条比切片更容易咀嚼。第二是<strong>气味强度</strong>，香菇的含硫气味对部分孩子来说偏冲，切碎混入肉馅比整朵上桌更容易被接受。第三是<strong>调味替代</strong>，用香菇粉、虾皮粉替代一部分盐，可以在降低钠摄入的同时保住鲜味。</p>
+          <p>需要说明的是，菌菇本身是高纤维食材，幼儿一次吃太多容易肚子胀，这也是内容里普遍采用“一份鲜菇配一份蛋白质”的原因。九一妈妈网蘑菇的儿童餐条目基本都按这个比例配，很少出现整盘都是菌菇的做法。</p>
+
+          <h3>四、干货泡发：时间和水温如何取舍</h3>
+          <p>泡发不是越久越好。冷水泡发 4 小时以上，香菇的风味物质会部分流失到水里；温水 30 分钟能兼顾效率和风味，但水温超过 50℃ 会让香气提前挥发。比较稳妥的做法是：</p>
+          <ol>
+            <li>先用流动水快速冲掉表面浮尘，不要长时间浸泡。</li>
+            <li>温水（约 40℃）浸泡 25—30 分钟，压一个盘子让干货完全没入水中。</li>
+            <li>泡发水静置 5 分钟，取上层清液用于炖煮，底部沉淀倒掉。</li>
+            <li>榛蘑、干巴菌这类带沙品种，泡发后再淘洗两到三遍，直到盆底没有细沙。</li>
+          </ol>
+          <p>干巴菌比较特殊，它的香气集中在菌体褶皱里，反复搓洗会损失风味，通常建议“快洗、少搓、多漂”。这和香菇的处理逻辑并不一致，也是选购档案里单独给它开一页的原因。</p>
+
+          <h3>五、野菌的安全边界</h3>
+          <p>牛肝菌、见手青这类野菌必须完全炒熟，这一点没有折中空间。判断熟度不能只看“变软”，而要看切片是否整体失去生硬感、锅底是否还有明显水分。九一妈妈网蘑菇在相关条目里给出了切片厚度下限和对应的翻炒时间，通常 3 毫米左右的切片需要中大火持续翻炒 8 分钟以上。</p>
+          <p>另外，不认识的野菌不要自行采买和烹饪，市场上购买时也应选择有明确产地与品种标注的干货或冻品。这条边界比任何烹饪技巧都重要。</p>
+        </div>
+      </section>
+
+      <!-- 体验指南 -->
+      <section class="block" id="guide">
+        <div class="sechead">
+          <h2>第一次看，按这个顺序比较省时间</h2>
+          <div class="desc">内容消费顺序与判断依据</div>
+        </div>
+        <ol class="steps">
+          <li><b>先看一道 15 分钟内的鲜菇菜</b>口蘑三鲜汤或蟹味菇炒蛋都合适。目的是先建立“菌菇下锅后是什么状态”的直观印象，这比记配方更有用。</li>
+          <li><b>再看一条选购指南</b>从口蘑或香菇这类日常品种入手，学会看伞盖闭合度、根部颜色和袋内水汽。这一步能直接减少买回家的浪费。</li>
+          <li><b>然后进入干货泡发</b>选干香菇 30 分钟泡发法，掌握水温与时间的平衡。泡发是干货类内容的地基，跳过它去看炖菜容易失败。</li>
+          <li><b>孩子吃饭的话，补看儿童餐条目</b>重点看调味替代和切法，而不是照抄菜谱。口味适配是逐家调整的，配方只是起点。</li>
+          <li><b>最后再碰野菌与炖菜</b>牛肝菌、干巴菌、榛蘑这类，成本和风险都更高，放在有基础之后再看不迟。</li>
+        </ol>
+        <div class="compare" style="margin-top:16px">
+          <div class="cmp hi">
+            <h4>值得投入时间的条目</h4>
+            <ul>
+              <li>给出具体时间、火力、克数的</li>
+              <li>演示了失败状态的（出水、发黏、散形）</li>
+              <li>说明“为什么这样做”而不只是步骤</li>
+              <li>同一道菜有两个版本可对比的</li>
+            </ul>
+          </div>
+          <div class="cmp">
+            <h4>可以先跳过的条目</h4>
+            <ul>
+              <li>只有成品特写、没有过程的</li>
+              <li>配料表写“适量”“少许”且无说明的</li>
+              <li>把野菌和普通鲜菇混为一谈的</li>
+              <li>时长超过 20 分钟却没分段的</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- FAQ -->
+      <section class="block" id="faq">
+        <div class="sechead">
+          <h2>常见问题</h2>
+          <div class="desc">围绕具体品种与做法</div>
+        </div>
+        <div class="faq">
+          <details open>
+            <summary>口蘑和香菇做汤，哪个更适合孩子喝？</summary>
+            <div class="ans">口蘑更适合。口蘑的鲜味来自鸟苷酸，和鸡蛋、鸡肉同煮会叠加出柔和的鲜味，气味也不冲；香菇尤其是干香菇，含硫香气较浓，做清汤容易压过其他食材。如果一定要用香菇，建议减少用量并切薄片，先煸再下水。</div>
+          </details>
+          <details>
+            <summary>干香菇泡发多久合适，泡发水要不要留？</summary>
+            <div class="ans">温水约 40℃ 泡 25—30 分钟比较稳妥，冷水泡 4 小时以上风味流失更多。泡发水可以留，但要静置 5 分钟后只取上层清液，底部沉淀倒掉，因为细沙和杂质都沉在下面。榛蘑、干巴菌这类带沙品种建议泡完再淘洗两到三遍。</div>
+          </details>
+          <details>
+            <summary>牛肝菌要炒多久才算熟？</summary>
+            <div class="ans">3 毫米左右的切片，中大火持续翻炒 8 分钟以上比较稳妥。判断依据不是“变软”，而是切片整体失去生硬感、锅底不再有明显水分。切片不要过厚，厚切会拉长所需时间并导致受热不均。不认识的野菌不要自行采买烹饪。</div>
+          </details>
+          <details>
+            <summary>鲜菇买回来放冰箱，为什么第二天就发黏？</summary>
+            <div class="ans">菌菇呼吸作用强，密封袋里很快会积水，水汽是发黏的直接原因。回家后换成纸袋，或在保鲜盒底部垫厨房纸再放菇，能明显延长保存时间。另外，鲜菇不建议提前洗，洗过再放会加速变质，用之前再快速冲洗即可。</div>
+          </details>
+          <details>
+            <summary>杏鲍菇手撕和刀切，口感差别大吗？</summary>
+            <div class="ans">差别比较明显。手撕沿着纤维方向断开，断面粗糙更容易挂住酱汁，凉拌时更入味；刀切断面平整，适合快炒保持形状。做凉拌推荐先蒸 8 分钟再手撕，做干煸则切片更合适。</div>
+          </details>
+          <details>
+            <summary>第一次做菌菇菜，从哪一道开始比较好？</summary>
+            <div class="ans">从口蘑三鲜汤或蟹味菇炒蛋开始。这两道容错率高、时间短，且能直观看到菌菇下锅后的出水与收缩过程。做完这两道再去看干货泡发和炖菜，会更容易理解为什么要控制水温和时间。</div>
+          </details>
+        </div>
+      </section>
+
+      <!-- 用户评论 -->
+      <section class="block" id="talk">
+        <div class="sechead">
+          <h2>社区讨论（近期 14 条）</h2>
+          <div class="desc">来自家庭主厨的真实反馈</div>
+        </div>
+        <div class="comments">
+          <div class="cmt"><div class="who"><span class="av">林</span><b>林小满</b><time>11 月 25 日</time></div><p>口蘑三鲜汤照着做了，煸到边缘微焦再下水这一步确实关键，汤明显比以前清。</p></div>
+          <div class="cmt"><div class="who"><span class="av">周</span><b>周家二厨</b><time>11 月 25 日</time></div><p>干巴菌那三项判据挺实用，尤其是含水率，之前买过一次摸着潮潮的，回去两天就发霉了。</p></div>
+          <div class="cmt"><div class="who"><span class="av">陈</span><b>陈小鹿</b><time>11 月 24 日</time></div><p>肉饼给孩子做了，香菇粉替代一半盐这个办法不错，就是我家娃还是嫌蘑菇味重，下次试试切更碎。</p></div>
+          <div class="cmt"><div class="who"><span class="av">吴</span><b>吴阿婆的灶</b><time>11 月 24 日</time></div><p>榛蘑去沙三遍真的必要，我第一次偷懒洗了一遍，吃到沙子。</p></div>
+          <div class="cmt"><div class="who"><span class="av">赵</span><b>赵一勺</b><time>11 月 23 日</time></div><p>手撕杏鲍菇蒸 8 分钟有点久，我蒸 6 分钟口感更脆一点，看个人喜好。</p></div>
+          <div class="cmt"><div class="who"><span class="av">孙</span><b>孙小满的妈</b><time>11 月 23 日</time></div><p>牛肝菌那期看得很紧张，以前真不知道不能靠变软判断熟度。</p></div>
+          <div class="cmt"><div class="who"><span class="av">郑</span><b>郑不加班</b><time>11 月 22 日</time></div><p>蟹味菇炒蛋三分钟确实能做完，但洗锅也算进去就有点勉强了哈哈。</p></div>
+          <div class="cmt"><div class="who"><span class="av">何</span><b>何家小灶</b><time>11 月 21 日</time></div><p>纸袋保存法试了一周，口蘑第六天还挺干爽，比密封袋强太多。</p></div>
+          <div class="cmt"><div class="who"><span class="av">黄</span><b>黄小厨</b><time>11 月 21 日</time></div><p>泡发水取上层这个细节很到位，以前都是整盆倒进去，底部全是沙。</p></div>
+          <div class="cmt"><div class="who"><span class="av">徐</span><b>徐太太</b><time>11 月 20 日</time></div><p>希望多出一点单人份的菌菇菜，一人食买一盒总用不完。</p></div>
+          <div class="cmt"><div class="who"><span class="av">马</span><b>马小满</b><time>11 月 19 日</time></div><p>杏鲍菇麻酱款凉拌我家孩子很喜欢，蒜香那款太辣了。</p></div>
+          <div class="cmt"><div class="who"><span class="av">高</span><b>高家厨房</b><time>11 月 18 日</time></div><p>香菇泡发 30 分钟这个时间点掐得准，超过一小时香味确实淡了。</p></div>
+          <div class="cmt"><div class="who"><span class="av">罗</span><b>罗小满妈妈</b><time>11 月 17 日</time></div><p>感觉儿童餐这块还可以再细一点，比如一岁和两岁的切法差别。</p></div>
+          <div class="cmt"><div class="who"><span class="av">谢</span><b>谢家厨房</b><time>11 月 16 日</time></div><p>小鸡炖榛蘑砂锅版火候给得清楚，第一次做就没翻车。</p></div>
+        </div>
+      </section>
+
+      <!-- 相关资讯 -->
+      <section class="block" id="news">
+        <div class="sechead">
+          <h2>相关资讯</h2>
+          <div class="desc">近一个月内的社区动态</div>
+        </div>
+        <div class="news">
+          <article>
+            <img src="https://picsum.photos/seed/mogu-news21/600/400" width="600" height="400" loading="lazy" alt="超市小份鲜菇组合包装陈列">
+            <div class="nb"><span class="dt">2026-11-24</span><h3>小份鲜菇组合包在家庭厨房走红</h3><p>150 克一组的口蘑、蟹味菇组合装覆盖了多数一餐用量，也带动了“一餐一菇”类短视频选题增加。</p></div>
+          </article>
+          <article>
+            <img src="https://picsum.photos/seed/mogu-news22/600/400" width="600" height="400" loading="lazy" alt="云南干巴菌干货上市摊位">
+            <div class="nb"><span class="dt">2026-11-21</span><h3>云南干巴菌干货集中上市，选购问答增多</h3><p>社区里关于含水率与虫蛀比例的提问明显变多，九一妈妈网蘑菇的干巴菌档案访问量随之上升。</p></div>
+          </article>
+          <article>
+            <img src="https://picsum.photos/seed/mogu-news23/600/400" width="600" height="400" loading="lazy" alt="幼儿园食堂菌菇菜品分餐">
+            <div class="nb"><span class="dt">2026-11-18</span><h3>幼儿园食堂菌菇菜品比例调整讨论</h3><p>部分家长关心菌菇纤维摄入量，讨论集中在“一份菇配一份蛋白质”的搭配比例上。</p></div>
+          </article>
+          <article>
+            <img src="https://picsum.photos/seed/mogu-news24/600/400" width="600" height="400" loading="lazy" alt="牛肝菌切片与火力对照演示">
+            <div class="nb"><span class="dt">2026-11-15</span><h3>牛肝菌熟度判断标准被重新讨论</h3><p>“变软即熟”的说法被多位家庭主厨质疑，切片厚度与翻炒时间的对照表成为讨论焦点。</p></div>
+          </article>
+          <article>
+            <img src="https://picsum.photos/seed/mogu-news25/600/400" width="600" height="400" loading="lazy" alt="厨房纸垫底保鲜盒保存鲜菇">
+            <div class="nb"><span class="dt">2026-11-11</span><h3>纸袋保存鲜菇的方法在社区广泛转发</h3><p>对比试验显示纸袋与厨房纸垫底两种方式在第五天的状态明显优于密封袋。</p></div>
+          </article>
+          <article>
+            <img src="https://picsum.photos/seed/mogu-news26/600/400" width="600" height="400" loading="lazy" alt="低盐调味替代品香菇粉与虾皮粉">
+            <div class="nb"><span class="dt">2026-11-05</span><h3>低盐调味替代方案加入儿童餐条目</h3><p>香菇粉、虾皮粉替代部分食盐的做法被整理成对照表，附在相关儿童餐内容之后。</p></div>
+          </article>
+        </div>
+      </section>
+
+      <!-- 热门榜单 + 时间线 -->
+      <section class="block" id="rank">
+        <div class="sechead">
+          <h2>本周热度榜与更新时间线</h2>
+          <div class="desc">截至 11 月 25 日 14:00</div>
+        </div>
+        <div class="compare" style="grid-template-columns:1fr 1fr">
+          <div class="cmp hi">
+            <h4>本周播放前 6</h4>
+            <ol style="padding-left:1.2em;font-size:14px;line-height:1.85;color:var(--ink-2)">
+              <li>口蘑三鲜汤 12 分钟版 · 24.6 万</li>
+              <li>干香菇 30 分钟泡发法 · 21.2 万</li>
+              <li>小鸡炖榛蘑·家庭砂锅版 · 19.8 万</li>
+              <li>儿童口蘑肉饼（低盐版）· 18.3 万</li>
+              <li>手撕杏鲍菇凉拌 · 15.7 万</li>
+              <li>蟹味菇炒蛋·三分钟早餐 · 13.4 万</li>
+            </ol>
+          </div>
+          <div class="cmp">
+            <h4>条目更新时间线</h4>
+            <ul class="timeline" style="margin-top:4px">
+              <li><span class="d">11 月 25 日</span><b>三鲜汤 / 肉饼 / 干巴菌档案</b><span>三条同日上线，覆盖快手菜与选购两个方向</span></li>
+              <li><span class="d">11 月 22 日</span><b>牛肝菌熟度对照表</b><span>新增火力与切片厚度对照</span></li>
+              <li><span class="d">11 月 18 日</span><b>干香菇泡发法重制</b><span>加入糖水泡法对照组</span></li>
+              <li><span class="d">11 月 09 日</span><b>鲜菇保存对比结果</b><span>三种方式第五天状态公布</span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- 创作者证言 -->
+      <section class="block" id="voice">
+        <div class="sechead">
+          <h2>创作者说</h2>
+          <div class="desc">关于内容取舍的一点说明</div>
+        </div>
+        <div class="quote">
+          <p>“我们拍蘑菇，最先砍掉的是‘好看但做不出来’的镜头。家庭厨房的火力、锅具、时间都有限，一道菜如果脱离这些条件还拍得漂亮，那它对观众没有用。所以口蘑三鲜汤我们重拍了三次，就为了把‘煸到什么时候下水’这一件事讲清楚。”</p>
+          <span class="by">—— 九一妈妈网蘑菇 内容主理人 · 九一妈妈</span>
+        </div>
+      </section>
+
+      <!-- 相关推荐 -->
+      <section class="block" id="related">
+        <div class="sechead">
+          <h2>延伸方向</h2>
+          <div class="desc">从当前条目往外走</div>
+        </div>
+        <div class="tagcloud">
+          <a href="/#pick">口蘑三鲜汤 <small>菌汤</small></a>
+          <a href="/#pick">干巴菌选购 <small>野菌</small></a>
+          <a href="/#pick">干香菇泡发 <small>干货</small></a>
+          <a href="/#pick">杏鲍菇凉拌 <small>凉菜</small></a>
+          <a href="/#pick">榛蘑去沙 <small>技巧</small></a>
+          <a href="/#pick">牛肝菌熟度 <small>安全</small></a>
+          <a href="/#pick">鲜菇冷藏 <small>保存</small></a>
+          <a href="/#pick">儿童低盐调味 <small>营养</small></a>
+        </div>
+      </section>
+
+    </div>
+
+    <!-- 右栏辅助 -->
+    <aside class="right">
+      <div class="side-card">
+        <h3>今日热榜</h3>
+        <ol class="hotlist">
+          <li><span><b>口蘑三鲜汤 12 分钟版</b><small>今日 09:30 上线</small></span></li>
+          <li><span><b>云南干巴菌选购档案</b><small>今日 14:00 解封</small></span></li>
+          <li><span><b>儿童口蘑肉饼（低盐版）</b><small>11 月 25 日更新</small></span></li>
+          <li><span><b>干香菇 30 分钟泡发法</b><small>11 月 18 日重制</small></span></li>
+          <li><span><b>牛肝菌必须炒熟的那 8 分钟</b><small>11 月 22 日上线</small></span></li>
+          <li><span><b>手撕杏鲍菇凉拌</b><small>11 月 20 日重拍</small></span></li>
+        </ol>
+      </div>
+      <div class="side-card">
+        <h3>正在直播</h3>
+        <p style="font-size:13.6px;color:var(--ink-2);margin:0 0 8px">今晚 20:00 · 干货泡发答疑</p>
+        <p style="font-size:12.6px;color:var(--ink-3);margin:0">连麦回答“泡发水要不要留”“干巴菌怎么洗不损香”两个高频问题，可提前留言。</p>
+      </div>
+      <div class="side-card">
+        <h3>菌菇小档案</h3>
+        <ul class="upflow">
+          <li><span class="t">鲜菇</span><span class="c"><b>口蘑 · 蟹味菇 · 白玉菇</b><span>建议三天内用完</span></span></li>
+          <li><span class="t">干货</span><span class="c"><b>香菇 · 榛蘑 · 元蘑</b><span>密封避光可存半年</span></span></li>
+          <li><span class="t">野菌</span><span class="c"><b>牛肝菌 · 干巴菌 · 松茸</b><span>必须完全炒熟</span></span></li>
+        </ul>
+      </div>
+      <div class="side-card">
+        <h3>订阅</h3>
+        <p style="font-size:13.4px;color:var(--ink-2);margin:0 0 10px">每周三次更新提醒，含当日新增条目清单。</p>
+        <button class="btn-ghost" type="button" style="width:100%" onclick="alert('订阅入口为示例，未接入实际推送服务。')">订阅更新提醒</button>
+      </div>
+    </aside>
+
+  </div>
+</main>
+
+<!-- 页尾 -->
+<footer id="footer">
+  <div class="wrap">
+    <div class="cols">
+      <div>
+        <div class="fbrand">
+          <svg viewBox="0 0 48 48" aria-hidden="true">
+            <rect x="1" y="1" width="46" height="46" rx="13" fill="#3b332b" stroke="#5a4d40" stroke-width="2"/>
+            <path d="M10 25c0-8.5 6.3-14 14-14s14 5.5 14 14c0 2-1.4 3.2-3.4 3.2H13.4C11.4 28.2 10 27 10 25Z" fill="#e2703f"/>
+            <circle cx="18" cy="19.5" r="2.6" fill="#fff5ec"/>
+            <circle cx="31" cy="22.5" r="2.4" fill="#fff5ec"/>
+            <path d="M20 28.4h8l-1 8.2c-.2 1.4-1.2 2.2-2.6 2.2h-.8c-1.4 0-2.4-.8-2.6-2.2l-1-8.2Z" fill="#7fae74"/>
+          </svg>
+          <b>九一妈妈网蘑菇</b>
+        </div>
+        <p>专注亲子蘑菇料理的短视频内容，覆盖鲜菇快手菜、干货泡发、儿童营养搭配与菌菇选购判断。所有内容围绕家庭厨房的真实条件制作。</p>
+      </div>
+      <div>
+        <h4>内容频道</h4>
+        <ul>
+          <li><a href="/#pick">快手家常菜</a></li>
+          <li><a href="/#pick">菌菇选购指南</a></li>
+          <li><a href="/#pick">儿童营养餐</a></li>
+          <li><a href="/#pick">干货泡发技巧</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>深入阅读</h4>
+        <ul>
+          <li><a href="/#deep">菌菇选择与判断</a></li>
+          <li><a href="/#guide">观看顺序建议</a></li>
+          <li><a href="/#faq">常见问题</a></li>
+          <li><a href="/#rank">本周热度榜</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>社区</h4>
+        <ul>
+          <li><a href="/#talk">用户讨论</a></li>
+          <li><a href="/#news">相关资讯</a></li>
+          <li><a href="/#updates">更新动态</a></li>
+          <li><a href="/#related">延伸方向</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="bottom">
+      <span>页面内播放量、评分、评论时间等数据均为示例内容，用于展示信息结构。</span>
+      <span>© 2026 九一妈妈网蘑菇 · 内容示例站</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var menuBtn=document.getElementById('menuBtn');
+  var nav=document.getElementById('mainnav');
+  if(menuBtn&&nav){
+    menuBtn.addEventListener('click',function(){
+      var open=nav.classList.toggle('open');
+      menuBtn.setAttribute('aria-expanded',open?'true':'false');
+    });
+    nav.addEventListener('click',function(e){
+      if(e.target.tagName==='A'){nav.classList.remove('open');menuBtn.setAttribute('aria-expanded','false');}
+    });
+  }
+
+  var q=document.getElementById('q');
+  var btn=document.getElementById('searchBtn');
+  var grid=document.getElementById('cardGrid');
+  var noRes=document.getElementById('noResult');
+  if(grid&&q){
+    var cards=Array.prototype.slice.call(grid.querySelectorAll('.card'));
+    function run(){
+      var kw=(q.value||'').trim().toLowerCase();
+      if(!kw){cards.forEach(function(c){c.classList.remove('hidden-by-search');});noRes.classList.remove('on');return;}
+      var hit=0;
+      cards.forEach(function(c){
+        var text=(c.textContent+' '+(c.getAttribute('data-key')||'')).toLowerCase();
+        var ok=text.indexOf(kw)>-1;
+        c.classList.toggle('hidden-by-search',!ok);
+        if(ok)hit++;
+      });
+      noRes.classList.toggle('on',hit===0);
+    }
+    if(btn)btn.addEventListener('click',run);
+    q.addEventListener('input',run);
+  }
+
+  var sub=document.getElementById('subscribeBtn');
+  if(sub){sub.addEventListener('click',function(){alert('订阅入口为示例，未接入实际推送服务。');});}
+})();
+</script>
+</body>
+              </html>
